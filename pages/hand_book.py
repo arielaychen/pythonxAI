@@ -937,7 +937,7 @@ print(a)
 ✅ `range()` 可以快速產生一串數字，且**不包含最後一個數字**。
 
  """)
-    with st.expander("class 3 課堂筆記"):
+with st.expander("class 3 課堂筆記"):
     st.write("""
 我幫你整理成一份適合**國小學生閱讀**的 Python 筆記，用比較簡單、生活化的方式說明，也依照今天上課的內容分類。
 
