@@ -47,4 +47,17 @@ print(L)
 L=[1,3,2,4,5,]
 L.sort()
 print(L) 
+# list 走訪元素
+# 可以透過取得index的方式來找到list中的資料
+# 也可以直接把list當作一個範圍來取得資料
+# 這兩種方式都可以,但是看使用者的情境是否會需要index來決定用哪一種方式
+L=[1,2,3,"a","b""c"]
+for i in range(0,len(L),2):
+    print(L[i])
+
+for i in L:
+    print(i)
+
+
+
 
